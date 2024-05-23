@@ -1,0 +1,53 @@
+/**fuente**/
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+
+
+body{
+    background: #0F0F0F;
+}
+header{
+    font-family: "Jacquard 12", system-ui;
+    color: #F0A500;
+    background-color: #030637;
+    padding: 10px 0;
+    border-bottom: 3px solid #F0A500;
+}
+
+.navbar {
+margin: 0 auto ;
+}
+
+.navbar-list{
+    font-size: 25px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.navbar-list li{
+    margin-right: 40px;
+}
+
+.colora{
+    text-decoration: none;
+    color: #F0A500;
+    border: 2px solid transparent;
+}
+
+.colora:hover{
+    transition: .4s;
+    border-radius: 20%;
+    border-color: #FFDD57;
+}
+
+.logo{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    z-index: 1;
+    margin-left: 50px;
+    top: 1%;
+}
+
